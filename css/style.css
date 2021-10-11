@@ -1,0 +1,12 @@
+/* tutte le altezze sono provvisorie/da togliere*/
+header {
+  min-height: 100px;
+}
+
+section {
+  min-height: 200px;
+}
+
+footer {
+  min-height: 150px;
+}

@@ -1,6 +1,6 @@
 /* tutte le altezze sono provvisorie/da togliere*/
 body{
-  background-color: rgb(210, 239, 248);
+  color: #fff;
 }
 
 header {
@@ -13,6 +13,43 @@ section {
   border-bottom: 1px solid black;
 }
 
-footer {
-  min-height: 150px;
+.green {
+  background-color: #1ABC9C;
+}
+
+.jumbotron-content {
+  text-align: center;
+}
+
+.jumbotron-image {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.black {
+  color: #000;;
+}
+
+.cover {
+  min-height: 100px;
+}
+
+.box-image {
+  min-height: 100px;
+  line-height: 100px;
+}
+
+.footer-top {
+  height: 100px;
+  background-color: #3A546D;
+}
+
+header, .footer-bottom {
+  background-color: #2C3E50;
+}
+
+.footer-bottom {
+  height: 80px;
 }

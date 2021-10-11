@@ -22,8 +22,8 @@
   
         <!-- header right -->
         <div class="col-6 bg-danger">
-          <div class="d-none d-md-block">nav menu lg</div>
-          <div class="d-md-none">nav sm</div>
+          <div class="d-none d-sm-block">nav menu lg</div>
+          <div class="d-sm-none">nav sm</div>
         </div>
       </div>
     </div>
@@ -32,54 +32,72 @@
   <!-- MAIN -->
   <main>
     <!-- jumbotron -->
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-md-6 bg-success">
-
-          <h3>jumbotron</h3>
+    <section class="green">
+      <div class="container-md">
+        <div class="row justify-content-center p-2">
+          <div class="jumbotron-content col-sm-6 bg-primary">
+            <div class="jumbotron-image">jumbo</div>
+            <h3>start bootstrap</h3>
+            <p>lorem- lorem- lorem</p>
+          </div>
         </div>
       </div>
+      
     </section>
 
     <!-- portfolio -->
     <section class="container-md">
-      <div class="row justify-content-center">
-        <div class="col-4 bg-light"><h3>portfolio</h3></div>
+      <div class="row justify-content-center p-2">
+        <div class="col-3 bg-primary"><h3 class="black">portfolio</h3></div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 bg-white">1</div>
-        <div class="col-lg-4 col-md-6 bg-info">2</div>
-        <div class="col-lg-4 col-md-6 bg-warning">3</div>
-        <div class="col-lg-4 col-md-6 bg-info">4</div>
-        <div class="col-lg-4 col-md-6 bg-warning">5</div>
-        <div class="col-lg-4 col-md-6 b bg-white">6</div>
+      <div class="row p-2">
+        <div class="cover col-md-4 col-sm-6 bg-success p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">1</div>
+        </div>
+        <div class="cover col-md-4 col-sm-6 bg-info p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">2</div>
+        </div>
+        <div class="cover col-md-4 col-sm-6 bg-warning p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">3</div>
+        </div>
+        <div class="cover col-md-4 col-sm-6 bg-info p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">4</div>
+        </div>
+        <div class="cover col-md-4 col-sm-6 bg-warning p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">5</div>
+        </div>
+        <div class="cover col-md-4 col-sm-6 b bg-success p-2">
+          <div class="box-image d-flex justify-content-center bg-dark">6</div>
+        </div>
       </div>
     </section>
 
     <!-- about -->
-    <section class="container-md">
-      <div class="row justify-content-center">
-        <div class="col-4 bg-light"><h3>about</h3></div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 bg">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum modi amet tenetur magni veniam eaque commodi illo mollitia, reiciendis ut voluptas explicabo natus. Enim labore sequi animi dicta, consectetur saepe.</p>
+    <section class="green">
+      <div class="container-md">
+        <div class="row justify-content-center p-2">
+          <div class="col-3 bg-info"><h3>about</h3></div>
         </div>
-        <div class="col-md-6">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius provident natus saepe voluptate sit cumque, voluptatem fugit necessitatibus error labore dolor nobis corporis amet velit consequatur. Qui, dolore alias.</p>
+        <div class="row">
+          <div class="col-sm-6 bg-secondary">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum modi amet tenetur magni veniam eaque commodi illo mollitia, reiciendis ut voluptas explicabo natus. Enim labore sequi animi dicta, consectetur saepe.</p>
+          </div>
+          <div class="col-sm-6 bg-secondary">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius provident natus saepe voluptate sit cumque, voluptatem fugit necessitatibus error labore dolor nobis corporis amet velit consequatur. Qui, dolore alias.</p>
+          </div>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-2 bg-light ">button</div>
+        <div class="row justify-content-center">
+          <div class="col-2 bg-info">button</div>
+        </div>
       </div>
     </section>
 
     <!-- form -->
     <section class="container-md">
-      <div class="row justify-content-center">
-        <div class="col-4 bg-light"><h3>contact me</h3></div>
+      <div class="row justify-content-center p-2">
+        <div class="col-3 bg-info"><h3 class="black">contact me</h3></div>
       </div>
-      <div class="row">
+      <div class="row bg-warning">
         <div class="col-12">name</div>
         <div class="col-12">email</div>
         <div class="col-12">phone</div>
@@ -91,8 +109,26 @@
 
   <!-- FOOTER -->
   <footer>
-    <!-- footer top -->
-    <!-- footer bottom -->
+    <div class="footer-top">
+      <!-- footer top -->
+      <div class="container-md">
+        <div class="row">
+          <div class="col-sm-4 bg-warning">location</div>
+          <div class="col-sm-4 bg-success">around</div>
+          <div class="col-sm-4 bg-warning">about</div>
+        </div>
+     </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <!-- footer top -->
+      <div class="container-md">
+        <div class="row justify-content-center">
+          <div class="col-2 bg-warning">copyright</div>
+        </div>
+     </div>
+    </div>
+    
   </footer>
   
 </body>

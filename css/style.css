@@ -5,6 +5,8 @@ header {
 
 section {
   min-height: 200px;
+  background-color: rgb(241, 207, 207);
+  border-bottom: 1px solid black;
 }
 
 footer {

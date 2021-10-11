@@ -1,4 +1,8 @@
 /* tutte le altezze sono provvisorie/da togliere*/
+body{
+  background-color: rgb(210, 239, 248);
+}
+
 header {
   min-height: 100px;
 }

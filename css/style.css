@@ -44,6 +44,12 @@ h1, h5 {
 /* HEADER */
 header {
   height: 80px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+
+header h5 {
+  font-weight: bold;
 }
 
 header, .footer-bottom {
@@ -80,7 +86,35 @@ h1 {
   margin: 20px 0;
 }
 
+.line {
+  width: 40%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line hr {
+  display: inline-block;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid #fff;
+  opacity: 1;
+}
+
+.gs-jumbotron-content h5 {
+  margin-top: 10px;
+}
+
+
 /* portfolio */
+.line.line-dark hr {
+  border-top: 3px solid #000;
+}
+
 .gs-box {
   margin: 10px;
 }

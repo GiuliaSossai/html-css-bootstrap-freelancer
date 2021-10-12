@@ -14,16 +14,16 @@
 
 <body>
   <!-- HEADER -->
-  <header class="container-fluid bg-dark">
-    <div class="container-md">
-      <div class="row justify-content-between">
+  <header class="fixed-top">
+    <div class="container">
+      <div class="row">
         <!-- header left -->
-        <div class="col-6 bg-warning">start bootstrap</div>
+        <div class="col bg-warning">start bootstrap</div>
   
         <!-- header right -->
-        <div class="col-6 bg-danger">
-          <div class="d-none d-sm-block">nav menu lg</div>
-          <div class="d-sm-none">nav sm</div>
+        <div class="col text-end bg-danger">
+          <div class="d-none d-md-block">nav menu</div>
+          <div class="d-md-none">hamburger</div>
         </div>
       </div>
     </div>
@@ -32,78 +32,97 @@
   <!-- MAIN -->
   <main>
     <!-- jumbotron -->
-    <section class="green">
-      <div class="container-md">
-        <div class="row justify-content-center p-2">
-          <div class="jumbotron-content col-sm-6 bg-primary">
+    <section class=" gs-jumbotron green">
+      <div class="gs-inner-jumbo gs-py">
+        
+          <div class="jumbotron-content bg-primary">
             <div class="jumbotron-image">jumbo</div>
             <h3>start bootstrap</h3>
             <p>graphic artist - web developer - illustrator</p>
           </div>
-        </div>
+        
       </div>
       
     </section>
 
     <!-- portfolio -->
-    <section class="container-md">
-      <div class="row justify-content-center p-2">
-        <div class="col-3 bg-primary"><h3 class="black">portfolio</h3></div>
+    <section class="gs-py">
+      <div class="text-center">
+        <h2>Portfolio</h2>
+        <div>riga satanica</div>
       </div>
-      <div class="row p-2">
-        <div class="cover red col-md-4 col-sm-6 p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">1</div>
-        </div>
-        <div class="cover aqua col-md-4 col-sm-6 p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">2</div>
-        </div>
-        <div class="cover black col-md-4 col-sm-6 p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">3</div>
-        </div>
-        <div class="cover cyan col-md-4 col-sm-6 p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">4</div>
-        </div>
-        <div class="cover blue col-md-4 col-sm-6 p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">5</div>
-        </div>
-        <div class="cover pink col-md-4 col-sm-6 b p-2">
-          <div class="box-image d-flex justify-content-center bg-dark">6</div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="cover red col-lg-4 col-md-6 p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">1</div>
+          </div>
+          <div class="cover aqua col-lg-4 col-md-6 p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">2</div>
+          </div>
+          <div class="cover black col-lg-4 col-md-6 p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">3</div>
+          </div>
+          <div class="cover cyan col-lg-4 col-md-6 p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">4</div>
+          </div>
+          <div class="cover blue col-lg-4 col-md-6 p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">5</div>
+          </div>
+          <div class="cover pink col-lg-4 col-md-6 b p-2">
+            <div class="box-image d-flex justify-content-center bg-dark">6</div>
+          </div>
         </div>
       </div>
+    
     </section>
 
     <!-- about -->
-    <section class="green">
-      <div class="container-md">
-        <div class="row justify-content-center p-2">
-          <div class="col-3 bg-info"><h3>about</h3></div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 bg-secondary">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum modi amet tenetur magni veniam eaque commodi illo mollitia, reiciendis ut voluptas explicabo natus. Enim labore sequi animi dicta, consectetur saepe.</p>
+    <section class="green gs-py">
+
+      <div class="text-center">
+        <h2>About</h2>
+        <div>riga satanica</div>
+      </div>
+
+     <!-- text part -->
+      <div class="gs-container-60">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 bg-secondary">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum modi amet tenetur magni veniam eaque commodi illo mollitia, reiciendis ut voluptas explicabo natus. Enim labore sequi animi dicta, consectetur saepe.</p>
+            </div>
+            <div class="col-md-6 bg-secondary">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius provident natus saepe voluptate sit cumque, voluptatem fugit necessitatibus error labore dolor nobis corporis amet velit consequatur. Qui, dolore alias.</p>
+            </div>
           </div>
-          <div class="col-sm-6 bg-secondary">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius provident natus saepe voluptate sit cumque, voluptatem fugit necessitatibus error labore dolor nobis corporis amet velit consequatur. Qui, dolore alias.</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-2 bg-info">button</div>
         </div>
       </div>
+
+
+    
     </section>
 
     <!-- form -->
-    <section class="container-md">
-      <div class="row justify-content-center p-2">
-        <div class="col-3 bg-info"><h3 class="black">contact me</h3></div>
+    <section class="gs-py">
+      
+      <div class="text-center">
+        <h2>Contact me</h2>
+        <div>riga satanica</div>
       </div>
-      <div class="row bg-warning">
-        <div class="form-text col-12">name</div>
-        <div class="form-text col-12">email</div>
-        <div class="form-text col-12">phone</div>
-        <div class="form-text col-12">message</div>
-        <div class="form-text col-12">button</div>
+
+      <div class="gs-container-60">
+        <div class="container-fluid">
+          <div class="row bg-warning">
+            <div class="form-text col-12">name</div>
+            <div class="form-text col-12">email</div>
+            <div class="form-text col-12">phone</div>
+            <div class="form-text col-12">message</div>
+            <div class="form-text col-12">button</div>
+          </div>
+        </div>
       </div>
+      
     </section>
   </main>
 
@@ -111,20 +130,20 @@
   <footer>
     <div class="footer-top">
       <!-- footer top -->
-      <div class="container-md">
-        <div class="row p-3">
-          <div class="col-sm-4 bg-warning">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 bg-warning">
             <h5>location</h5>
             <p>2215 John Daniel Drive Clark, MO 54243</p>
           </div>
-          <div class="col-sm-4 bg-success">
+          <div class="col-md-4 bg-success">
             <h5>around the web</h5>
             <div class="social">fb</div>
             <div class="social">g+</div>
             <div class="social">tw</div>
             <div class="social">in</div>
           </div>
-          <div class="col-sm-4 bg-warning">
+          <div class="col-md-4 bg-warning">
             <h5>about freelancer</h5>
             <p>Freelance is a free to use, open source Bootstrp theme create by <span class="green-text">Start Bootstrap</span></p>
           </div>
@@ -132,13 +151,9 @@
      </div>
     </div>
     
+    <!-- footer bottom -->
     <div class="footer-bottom">
-      <!-- footer top -->
-      <div class="container-md">
-        <div class="row justify-content-center">
-          <div class="col-2 bg-warning">copyright your website 2019</div>
-        </div>
-     </div>
+      <div>copyright your website 2019</div>
     </div>
     
   </footer>

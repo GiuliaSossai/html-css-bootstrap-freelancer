@@ -81,34 +81,19 @@ h1 {
 }
 
 /* portfolio */
-
-.cover {
-  min-height: 100px;
-}
-
-.cover.red {
-  background-color: #BA4B63;
-}
-.cover.aqua {
-  background-color: #1EA4B6;
-}
-.cover.black {
-  background-color: #000;
-}
-.cover.cyan {
-  background-color: #1C83C1;
-}
-.cover.blue {
-  background-color: #0E38B5;
-}
-.cover.pink {
-  background-color: #CCB2A3;
-}
-
-.box-image {
-  min-height: 100px;
-  line-height: 100px;
+.gs-box {
+  height: 300px;
   margin: 10px;
+}
+
+.gs-box-image {
+  min-height: 300px;
+  line-height: 300px;
+}
+
+.gs-box-image img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 
@@ -141,7 +126,12 @@ h1 {
   margin: 3px;
 }
 
-.footer-top a {
+.footer-top .social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-top span a {
   color: #1ABC9C;
   text-decoration: none;
 }

@@ -111,6 +111,10 @@ h1 {
 
 
 /* portfolio */
+.line.full {
+  width: 20%;
+}
+
 .line.line-dark hr {
   border-top: 3px solid #000;
 }

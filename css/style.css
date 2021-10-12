@@ -45,17 +45,38 @@ h1, h5 {
 header {
   height: 80px;
   text-transform: uppercase;
-  padding: 25px 0;
+  line-height: 80px;
 }
 
 header h5 {
   font-weight: bold;
+  line-height: 80px;
 }
 
 header, .footer-bottom {
   background-color: #2C3E50;
 }
 
+h5 a, .item a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+h5:hover a, .item:hover a {
+  color: #1ABC9C;
+}
+
+.item {
+  display: inline-block;
+}
+
+.hamburger-menu .fa-bars {
+  color: gray;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
 
 /* jumbotron */
 .gs-jumbotron {

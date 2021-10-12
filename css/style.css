@@ -9,7 +9,10 @@ header {
 
 section {
   min-height: 200px;
-  background-color: rgb(241, 207, 207);
+}
+
+.gs-title {
+  margin-bottom: 20px;
 }
 
 .green {
@@ -40,6 +43,10 @@ section {
   width: 100px;
   margin: 0 auto;
   background-color: #fff;
+}
+
+.black-text {
+  color: #000;
 }
 
 .cover {
@@ -76,18 +83,27 @@ section {
   margin: 0 auto;
 }
 
-.form-text {
-  border-bottom: 1px solid lightgray;
+.form-control::placeholder { 
+  color: #000;
 }
 
-form {
-  padding-top: 30px;
-}
 
 .custom-input {
   border: none;
   border-radius: 0;
   border-bottom: 1px solid lightgray;
+}
+
+.btn-custom {
+  margin-top: 20px;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-custom:hover {
+  margin-top: 20px;
+  color: #fff;
+  opacity: .7;
 }
 
 .footer-top {
@@ -101,14 +117,25 @@ h5 {
 
 .social {
   display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 15px;
   border: 1px solid #fff;
   border-radius: 50%;
-  padding: 4px;
+  margin: 3px;
 }
 
-.green-text {
+.footer-top a {
   color: #1ABC9C;
+  text-decoration: none;
 }
+
+.footer-top span:hover a {
+  color: #1ABC9C;
+  text-decoration: underline
+}
+
 
 header, .footer-bottom {
   background-color: #2C3E50;
@@ -118,4 +145,5 @@ header, .footer-bottom {
   height: 80px;
   padding: 30px 0;
   text-align: center;
+  font-size: 12px;
 }

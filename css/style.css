@@ -1,18 +1,6 @@
-/* tutte le altezze sono provvisorie/da togliere*/
+/* GLOBAL RULES */
 body{
   color: #fff;
-}
-
-header {
-  min-height: 80px;
-}
-
-section {
-  min-height: 200px;
-}
-
-.gs-title {
-  margin-bottom: 20px;
 }
 
 .green {
@@ -23,6 +11,47 @@ section {
   padding: 50px 0;
 }
 
+h1, h5 {
+  text-transform: uppercase;
+}
+
+.gs-title {
+  margin-bottom: 20px;
+}
+
+.black-text {
+  color: #000;
+}
+
+.gs-container-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn-custom {
+  margin-top: 20px;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-custom:hover {
+  margin-top: 20px;
+  color: #fff;
+  opacity: .7;
+}
+
+
+/* HEADER */
+header {
+  height: 80px;
+}
+
+header, .footer-bottom {
+  background-color: #2C3E50;
+}
+
+
+/* jumbotron */
 .gs-jumbotron {
   margin-top: 80px;
 }
@@ -34,20 +63,24 @@ section {
   min-height: 300px;
 }
 
-.jumbotron-content {
+.gs-jumbotron-content {
   text-align: center;
 }
 
 .jumbotron-image {
-  height: 100px;
-  width: 100px;
+  width: 200px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
-.black-text {
-  color: #000;
+.jumbotron-image img {
+  width: 100%;
 }
+
+h1 {
+  margin: 20px 0;
+}
+
+/* portfolio */
 
 .cover {
   min-height: 100px;
@@ -78,15 +111,11 @@ section {
   margin: 10px;
 }
 
-.gs-container-60 {
-  width: 60%;
-  margin: 0 auto;
-}
 
+/* form section*/
 .form-control::placeholder { 
   color: #000;
 }
-
 
 .custom-input {
   border: none;
@@ -94,25 +123,11 @@ section {
   border-bottom: 1px solid lightgray;
 }
 
-.btn-custom {
-  margin-top: 20px;
-  color: #fff;
-  border-color: #fff;
-}
 
-.btn-custom:hover {
-  margin-top: 20px;
-  color: #fff;
-  opacity: .7;
-}
-
+/* FOOTER */
 .footer-top {
   background-color: #3A546D;
   text-align: center;
-}
-
-h5 {
-  text-transform: uppercase;
 }
 
 .social {
@@ -134,11 +149,6 @@ h5 {
 .footer-top span:hover a {
   color: #1ABC9C;
   text-decoration: underline
-}
-
-
-header, .footer-bottom {
-  background-color: #2C3E50;
 }
 
 .footer-bottom {
